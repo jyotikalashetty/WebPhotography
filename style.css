@@ -1,0 +1,102 @@
+.carousel {
+    max-height: 100vh;
+}
+
+.carouselImg {
+    max-height: 100vh;
+}
+
+.carousel-indicators {
+    position: absolute;
+}
+
+.indicatorNum {
+    position: absolute;
+    top: 510px;
+    display: flex;
+    width: 100vw;
+    color: white;
+    justify-content: center;
+}
+
+.carousel-caption {
+    top: 180px;
+    text-align: left;
+    /* left:150px; */
+    font-family: sans-serif;
+}
+
+.heroTitle {
+    width: 50vh;
+}
+
+.coverText {
+    font-size: 16px;
+}
+
+hr {
+    color: white;
+    top: 280px;
+    opacity: 1;
+}
+
+.carousel[type="button"] {
+    display: flex;
+    align-items: end;
+}
+
+.carousel-control-prev {
+    justify-content: start;
+    opacity: 1;
+}
+
+.carousel-control-next {
+    justify-content: end;
+    opacity: 1;
+}
+
+.navigationArrow {
+    position: relative;
+    margin-top: 50px;
+}
+
+.carousel-indicators {
+    align-content: center;
+    bottom: auto;
+}
+
+@media (max-width: 991.98px) {
+    .carousel-caption {
+        top: 180px;
+        width: 80vw;
+        justify-self: center;
+    }
+
+    .indicatorNum {
+        top: 400px;
+        font-size: small;
+    }
+
+    .heroTitle {
+        font-size: 18px !important;
+    }
+
+    .coverText {
+        font-size: 10px !important;
+    }
+
+    hr {
+        top: 150px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .carousel-caption {
+        top: 100px;
+    }
+
+    .indicatorNum {
+        top: 320px;
+        font-size: smaller;
+    }
+}
